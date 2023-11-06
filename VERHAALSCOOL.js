@@ -206,10 +206,10 @@ function stuk10(dialogue1, dialogue2, dialogue3, dialogue4){
    
     
     console.log(" ______________________________________________________________________________________________________________________ ");
-    console.log(" | " + addSpaces("Ik loop verder naar huis maar zie de brandweer staan bij een huis,.",115) + "| ");
+    console.log(" | " + addSpaces("Het was een test maar gelukkig einde school dus ik kan nu naar huis lopen,.",115) + "| ");
+    console.log(" | " + addSpaces("Onderweg naar huis zie ik brand bij een paar huizen .",115) + "| ");
     console.log(" | " + addSpaces("Er is een HELE grote vlam uit een huis aan het komen .",115) + "| ");
-    console.log(" | " + addSpaces("Ik hoor verschillende mensen en families schreeuwend. Bang voor hun leven..",115) + "| ");
-    console.log(" | " + addSpaces("Er zijn zelfs VIER! brandweer auto's.",115) + "| ");
+    console.log(" | " + addSpaces("Ik hoor verschillende mensen en families schreeuwend. Bang voor hun leven...",115) + "| ");
     console.log(" |____________________________________________________________________________________________________________________| ");
     answerstuk10 = ['Help en red alle mensen en families', 'Laat de brandweer hun werk doen',],
     indexstuk10 = readline.keyInSelect(answerstuk10, 'Wat kies je?');
@@ -232,7 +232,7 @@ function stuk11(dialogue1, dialogue2, dialogue3, dialogue4){
     console.log(" | " + addSpaces("",115) + "| ");
     console.log(" |____________________________________________________________________________________________________________________| ");
     answerstuk11 = ['Vecht tegen de mafia', 'Red alle mensen',],
-    indexstuk10 = readline.keyInSelect(answerstuk11, 'Wat kies je?');
+    indexstuk11 = readline.keyInSelect(answerstuk11, 'Wat kies je?');
     if (indexstuk11 == 0) {
         stuk13()        
     } else if (indexstuk11 == 1){
